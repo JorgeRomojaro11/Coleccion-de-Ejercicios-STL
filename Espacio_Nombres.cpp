@@ -14,6 +14,14 @@ namespace Matematicas {
         return a * b;
     }
 
+double division(int a, int b) {
+        if (b != 0) {
+            return static_cast<double>(a) / b;
+        } else {
+            throw "Error: División por cero";
+        }
+    }
+
 
 
 
