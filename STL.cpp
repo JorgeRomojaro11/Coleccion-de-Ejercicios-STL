@@ -28,3 +28,17 @@ int main() {
     } else {
         std::cout << nombreBuscado << " no encontrado en el mapa." << std::endl;
     }
+
+    // Set
+    std::set<int> numerosSet {1, 2, 3, 4, 5};
+
+    numerosSet.erase(1);
+
+    std::cout << "Conjunto: ";
+    for (const auto& num : numerosSet) {
+        std::cout << num << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
