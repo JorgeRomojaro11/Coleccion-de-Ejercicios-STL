@@ -23,3 +23,10 @@ namespace Ciencia {
     }
 }
 
+int main() {
+    std::cout << "Energia: " << Ciencia::Fisica::calcularEnergia(10) << std::endl;
+    std::cout << "Moles: " << Ciencia::Quimica::calcularMoles(1e24) << std::endl;
+    std::cout << "Entropia: " << Ciencia::Biologia::calcularEntropia(300) << std::endl;
+
+    return 0;
+}
