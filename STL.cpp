@@ -14,3 +14,17 @@ int main() {
         std::cout << num << " ";
     }
     std::cout << std::endl;
+
+    // Map
+    std::map<std::string, int> edades;
+
+    edades["Juan"] = 25;
+    edades["Maria"] = 30;
+
+    std::string nombreBuscado = "Juan";
+    auto it = edades.find(nombreBuscado);
+    if (it != edades.end()) {
+        std::cout << "Edad de " << nombreBuscado << ": " << it->second << std::endl;
+    } else {
+        std::cout << nombreBuscado << " no encontrado en el mapa." << std::endl;
+    }
