@@ -1,3 +1,5 @@
-//
-// Created by Jorge Romojaro on 15/11/2023.
-//
+#include <iostream>
+#include "triangulo.cpp"
+#include "Círculo.cpp"
+#include "Rombo.cpp"
+#include "Trapecio.cpp"
