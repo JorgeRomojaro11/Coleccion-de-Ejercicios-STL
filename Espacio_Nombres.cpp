@@ -22,9 +22,17 @@ namespace Matematicas {
         }
     }
 
+    double potencia(double base, int exponente) {
+        return std::pow(base, exponente);
+    }
+}
 
+int main() {
+    std::cout << "Suma: " << Matematicas::suma(8, 23) << std::endl;
+    std::cout << "Resta: " << Matematicas::resta(78, 56) << std::endl;
+    std::cout << "Multiplicación: " << Matematicas::multiplicacion(9, 7) << std::endl;
+    std::cout << "División: " << Matematicas::division(33, 3) << std::endl;
+    std::cout << "Potencia: " << Matematicas::potencia(3, 3) << std::endl;
 
-
-
-
+    return 0;
 }
