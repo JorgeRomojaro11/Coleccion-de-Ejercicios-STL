@@ -13,3 +13,10 @@ namespace Geometria {
         }
     };
 }
+
+int main() {
+    Geometria::Circulo c(11);
+    std::cout << "Area: " << c.calcularArea() << std::endl;
+    std::cout << "Perimetro: " << c.calcularPerimetro() << std::endl;
+    return 0;
+}
